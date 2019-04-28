@@ -1,0 +1,4 @@
+collatz-test.exe
+obj/main.o
+obj/test-collatz-calc.o
+obj/test-collatz-length.o

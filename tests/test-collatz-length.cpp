@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <isbn-10.h>
+#include <collatz.h>
 
 TEST(COLLATZ_LENGTH, A)
 {

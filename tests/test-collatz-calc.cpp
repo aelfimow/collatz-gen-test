@@ -2,6 +2,12 @@
 #include <gtest/gtest.h>
 #include <collatz.h>
 
+TEST(COLLATZ_CALC, N_0)
+{
+    auto n = collatz_calc(0);
+    EXPECT_EQ(n, 0);
+}
+
 TEST(COLLATZ_CALC, N_19)
 {
     auto n = collatz_calc(19);

@@ -8,6 +8,12 @@ TEST(COLLATZ_CALC, N_0)
     EXPECT_EQ(n, 0);
 }
 
+TEST(COLLATZ_CALC, N_1)
+{
+    auto n = collatz_calc(1);
+    EXPECT_EQ(n, 4);
+}
+
 TEST(COLLATZ_CALC, N_19)
 {
     auto n = collatz_calc(19);
